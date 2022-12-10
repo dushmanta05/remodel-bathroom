@@ -1,11 +1,11 @@
 import React from 'react'
-import { Box, Typography } from '@mui/material'
+import { Box, Stack, Typography } from '@mui/material'
 
 const Header = () => {
   return (
     <Box>
-        <Typography variant='h6' style={{color: '#FF7000'}}>GET A 100% FREE QUOTE</Typography>
-        <Typography variant='h4'>One-Day Bath Remodels</Typography>
+        <Typography sx={{ mb: '5px', ml: '150px', paddingTop: '30PX'}} variant='h6' style={{color: '#FF7000', fontWeight: 'bold'}}>GET A 100% FREE QUOTE</Typography>
+        <Typography variant='h4' sx={{mb: '25px', ml: '150px'}} style={{fontWeight: 'bold', fontSize: '40px'}}>One-Day Bath Remodels</Typography>
     </Box>
   )
 }
