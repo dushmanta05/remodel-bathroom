@@ -8,7 +8,7 @@ import MainContent from './components/MainContent'
 const App = () => {
   return (
     <Box>
-      <Navbar className='navbar'/>
+      <Navbar />
       <MainContent />
       <Footer />
     </Box>
