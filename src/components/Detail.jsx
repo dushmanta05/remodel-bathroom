@@ -1,26 +1,26 @@
 import React from 'react'
 import { Box, Stack, Typography } from '@mui/material'
 
-import correctIcon from '/src/Images/correct-icon.png'
+import correctIcon from '/src/assets/Images/correct-icon.png'
 
 export const Detail = () => {
   return (
-    <Box>
-    <Stack direction='row'  alignItems='center' justifyContent='flex-start' spacing={1}>
+    <Box sx={{mt: '70px'}}>
+    <Stack direction='row' pb='10px'  alignItems='center' justifyContent='flex-start' spacing={1}>
         <img src={correctIcon} alt='correct-icon'  style={{width: '20px'}}/>
-        <Typography>Complete FREE Quote - No Obligation</Typography>   
+        <Typography variant='p' sx={{fontWeight: 'normal', fontSize: '20px'}}>Complete FREE Quote - No Obligation</Typography>   
     </Stack>
-    <Stack direction='row' alignItems='center' justifyContent='flex-start' spacing={1}>
+    <Stack direction='row' pb='10px' alignItems='center' justifyContent='flex-start' spacing={1}>
         <img src={correctIcon} alt='correct-icon' style={{width: '20px'}}/>
-        <Typography>Full Bathroom Remodels</Typography>   
+        <Typography variant='p' sx={{fontWeight: 'normal', fontSize: '20px'}}>Full Bathroom Remodels</Typography>   
     </Stack>
-    <Stack direction='row' alignItems='center' justifyContent='flex-start' spacing={1}>
+    <Stack direction='row' pb='10px' alignItems='center' justifyContent='flex-start' spacing={1}>
         <img src={correctIcon} alt='correct-icon' style={{width: '20px'}}/>
-        <Typography>New Tub Installations</Typography>   
+        <Typography variant='p' sx={{fontWeight: 'normal', fontSize: '20px'}}>New Tub Installations</Typography>   
     </Stack>
-    <Stack direction='row' alignItems='center' justifyContent='flex-start' spacing={1}>
+    <Stack direction='row' pb='10px' alignItems='center' justifyContent='flex-start' spacing={1}>
         <img src={correctIcon} alt='correct-icon' style={{width: '20px'}}/>
-        <Typography>New Shower Installations</Typography>   
+        <Typography variant='p' sx={{fontWeight: 'normal', fontSize: '20px'}}>New Shower Installations</Typography>   
     </Stack>   
     </Box>
   )
