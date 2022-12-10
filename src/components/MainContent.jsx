@@ -7,13 +7,15 @@ import Form from './Form'
 
 const MainContent = () => {
   return (
-      <Container>
+    <div className='main-content'>
+    <Box>
         <Header />
-        <Stack direction='row' alignItems='flex-start' justifyContent='space-around' >
+        <Stack ml='150px' direction='row' alignItems='flex-start' justifyContent='centre' gap={10} >
           <Banner />
           <Form />
         </Stack>
-      </Container>
+    </Box>
+    </div>
   )
 }
 
