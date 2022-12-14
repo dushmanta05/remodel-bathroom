@@ -11,7 +11,7 @@ const Navbar = () => {
         <Stack direction='row' alignItems='center' justifyContent='center' spacing={2}>
           <img src={Logo} alt='logo' style={{width: '48px'}} />
           <Stack direction='column'>
-            <Typography component='h2' fontFamily='Arial' fontWeight='bold'><span style={{color: '#FF7000'}}>HOUSTON</span> BATHROOM REMODELING</Typography>
+            <Typography component='h2' fontFamily='Arial' fontWeight='bold'><span style={{color: '#FF7000'}}>BHUBANESWAR</span> BATHROOM REMODELING</Typography>
             <Typography color={{color: '#c0bec0'}}>1-Day Bath Remodels</Typography>
           </Stack>
         </Stack>
